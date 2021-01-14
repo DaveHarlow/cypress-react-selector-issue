@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "lib": ["es5", "dom"],
+      "types": ["node", "cypress", "cypress-react-selector"],
+      "jsx" : "react",
+      "esModuleInterop" : true,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+    },
+    "include": [
+      "**/*.tsx"
+    ]
+  }
